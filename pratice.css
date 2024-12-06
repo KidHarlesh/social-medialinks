@@ -1,0 +1,73 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: black;
+    padding: 100px;
+    
+}
+
+
+
+section{
+    background-color: rgb(36, 36, 36);
+    border-radius:5px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 10px;
+    color:white;
+
+}
+h3{
+    text-align: center;
+    color: rgb(224, 255, 86);
+    font-size:medium;
+}
+h4{
+    text-align: center;
+    color:white;
+    font-size: small;
+    margin-bottom: 10x;
+}
+/* what is the proper way to go about it */
+img{
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+
+.INSTAGRAM,.Github,.Twitter,.TikTOK{
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-radius: 5px;
+    margin:5px;
+    text-align: center;
+    height: 5vh;
+    width:auto;
+    padding: 10px 30px ;
+}
+a{
+    text-decoration: none; 
+    color: white; 
+}
+
+
+
+
