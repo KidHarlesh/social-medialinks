@@ -1,73 +1,118 @@
-*{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
-body{
-    background-color: black;
-    padding: 100px;
-    
+body {
+  background-color: black;
 }
 
-
-
-section{
-    background-color: rgb(36, 36, 36);
-    border-radius:5px;
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    margin: auto;
-    padding: 10px;
+section {
+  background-color: black;
+  border-radius: 5px;
+  margin: auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
-
-h1{
-    text-align: center;
-    margin-top: 10px;
-    color:white;
-
+h1 {
+  text-align: center;
+  padding: 10px;
+  color: white;
 }
-h3{
-    text-align: center;
-    color: rgb(224, 255, 86);
-    font-size:medium;
+p {
+  text-align: center;
+  padding-bottom: 10px;
+  color: white;
+  font-size: small;
 }
-h4{
-    text-align: center;
-    color:white;
-    font-size: small;
-    margin-bottom: 10x;
+h3 {
+  text-align: center;
+  color: rgb(163, 197, 9);
+  font-size: medium;
+}
+h4 {
+  text-align: center;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 /* what is the proper way to go about it */
-img{
-    border-radius: 50%;
-    display: block;
-    margin: auto;
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
+img {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
 }
 
-
-
-.INSTAGRAM,.Github,.Twitter,.TikTOK{
-    background-color: rgb(70, 70, 70);
-    color: white;
-    border-radius: 5px;
-    margin:5px;
-    text-align: center;
-    height: 5vh;
-    width:auto;
-    padding: 10px 30px ;
+.INSTAGRAM,
+.Github,
+.Twitter,
+.TikTOK,
+.Linkedin {
+  background-color: rgb(36, 36, 36);
+  color: white;
+  border-radius: 10px;
+  margin: 15px;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  transition: padding-top 0.3s ease;
 }
-a{
-    text-decoration: none; 
-    color: white; 
+a {
+  text-decoration: none;
+  color: white;
 }
 
+.INSTAGRAM:hover,
+.Github:hover,
+.Twitter:hover,
+.TikTOK:hover,
+.Linkedin:hover {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.fa-sun {
+  color: white;
+}
 
+.container {
+  position: relative;
+  width: 30px;
+  height: 60px;
+}
 
+.fa-moon,
+.fa-sun {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
 
+.fa-moon {
+  display: none;
+}
+
+.fa-moon,
+.fa-sun {
+  transition: opacity 0.3s ease;
+}
+
+@media (min-width: 1024px) {
+  section {
+    width: fit-content;
+  }
+  body {
+    background-color: rgb(33, 32, 32);
+    padding: 25%;
+  }
+}
