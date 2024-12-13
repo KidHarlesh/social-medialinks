@@ -13,7 +13,7 @@ section {
   background-color: black;
   border-radius: 5px;
   margin: auto;
-  padding-top: 5rem;
+  padding-top: 1rem;
   padding-bottom: 5rem;
   padding-right: 10px;
   padding-left: 10px;
@@ -80,6 +80,10 @@ a {
 }
 .fa-sun {
   color: white;
+  font-size:x-large;
+}
+.fa-moon{
+  font-size:x-large;
 }
 
 .container {
